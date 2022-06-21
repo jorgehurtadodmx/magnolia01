@@ -1,0 +1,29 @@
+To create a page template first I locate the templates folder in the route my-training-module and then I create
+the page template definition as YAML and a script as a FTL.
+/templates/pages/-->
+The YAML will have the following content:
+my-homepage.yaml
+title: my-homepage
+templateScript: /my-training-module/templates/pages/my-homepage.ftl
+renderType: freemarker
+visible: true
+
+
+For the ftl file:
+my-homepage.ftl
+
+<!doctype html>
+<html lang="${cmsfn.language()}">
+  <head>
+    [@cms.page /]
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
+</html>
+
+
+After these two files, and only after these two, we can create a new page called "home" with the template "my-homepage".
+With this, we have a page with a template created from zero.

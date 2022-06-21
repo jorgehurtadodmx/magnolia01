@@ -1,0 +1,36 @@
+----------------------------
+Template
+
+For Magnolia, a template is just for creating pages, areas and componentes and every page is defined by a page template.
+To use a template we need 3 things:
+Template definition: A YAML file that specifies the configuration needed like a script.
+A template script: A FTL file that defines the HTML of the page.
+A dialog definition: A YAML file that defines the author's interface to add or edit content.
+
+
+----------------------
+
+Page template (10)
+
+There are three types of template: Page, area and component
+A page template contains areas as subelements and any changes are instantly avaialble (live reload)
+To create a page template we need to define first a PAGE template definition, a template script and a dialog definition.
+
+A page template definition is YAML file that defines page configuration like script to be used to render the page and define
+areas of the page (by default) the renderer is freemarker.
+
+
+A page template script is a FTL file that defines HTML to be rendered. (like a JSP for java and HTML)
+
+In the page dialog definition we define authors interface to enter title for a page (as authors).
+
+
+
+
+
+
+
+
+
+
+

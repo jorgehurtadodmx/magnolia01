@@ -1,0 +1,3 @@
+Resources Files app
+Resources could be JS, CSS images, Yaml or FTL (template scripts). Their origin can be local or online.
+In Magnolia menu we can find a resource file tab with many resources that mostly came from what we downloaded

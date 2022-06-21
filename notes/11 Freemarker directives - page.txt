@@ -1,0 +1,10 @@
+We have 3 marker directives to use in Magnolia
+CMS page directive is used to initialize a page for the editor and enables de author to edit the page.
+
+Without this, the author cannot edit the page, so in order to enable this, we add in the page template script (a .ftl)
+the cms page directive within the head element
+
+
+ [@cms.page /]
+
+Once this is placed, an author can start editing.
