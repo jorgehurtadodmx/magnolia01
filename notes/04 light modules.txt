@@ -1,0 +1,10 @@
+Light Modules are a prerequisite for creating pages and components
+Light Module is just a host for files and provides resources to magnolia
+Comes with live reload system (no refresh or restarts needed) to see changes. 
+
+
+If we want to change the path of the Light Module route, we just go to 
+\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\magnolia.properties
+And we find the Key/value:
+magnolia.resources.dir=Route
+---------------------------------------------

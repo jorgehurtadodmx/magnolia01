@@ -1,0 +1,4 @@
+To create one of those, we just go to the light-modules folder and create one with the command:
+mgnl create-light-module my-training-module
+
+Then, a new light module will appear as a subfolder of light modules
