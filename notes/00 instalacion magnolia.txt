@@ -1,0 +1,24 @@
+El proceso entero para conseguir una ejecucción correcta sería:
+Descargar una versión como 8 o 11 y correr java -version para comprobar que va bien.
+
+Instalar node.js y comprobar que va bien.
+Instalar el CLI de magnolia
+npm install @magnolia/cli -g
+
+Comprobar la versión con
+mgnl --version
+y actualizarla si es necesario con
+npm update @magnolia/cli -g
+vamos al directorio que queramos para trabajarlo y creamos una instancia de magnolai con:
+mgnl jumpstart
+y cogemos el bundle de demo (el 3, generalmente)
+
+para comenzarla
+mgnl start
+
+--------------------
+
+Una vez se ha iniciado magnolia, podemos ir a 8080 para comprobar que funciona.
+localhost:8080
+http://localhost:8080/magnoliaAuthor/.magnolia/admincentral
+-----
