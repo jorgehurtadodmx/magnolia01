@@ -2,3 +2,6 @@ title: my-homepage
 templateScript: /my-training-module/templates/pages/my-homepage.ftl
 renderType: freemarker
 visible: true
+areas:
+  main:
+    type: noComponent

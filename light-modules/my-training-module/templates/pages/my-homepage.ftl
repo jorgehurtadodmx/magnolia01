@@ -7,5 +7,6 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
+    [@cms.area name="main" /]
   </body>
-</html>
+</html> 

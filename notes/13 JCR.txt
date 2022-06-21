@@ -1,0 +1,10 @@
+JCR browser app stores data in a hierarchical way.
+
+Magnolia workspace consists of a root node (/) with unique ID (UUID). Each JCR session is bound to 1 workspace
+For the pages app it is, for example, the website workspace. For assets, we have dam
+
+
+(14)Exercise: Check entries in the JCR browser
+
+Since we created a page, this content will be stored in JCR, so we go to the JCR app --> website tag and check if we can
+find it there. (there it is)

@@ -1,0 +1,15 @@
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Template-definition/Area-definition.html
+
+
+Area template or component container defines the structure of a page and its components (0,1,n components)
+Area template is a part of pages and other components
+
+Area definition controls the page structure and provide repeatability.
+Loops tru components rendering those one by one.
+Areas definition are defined in page definition
+page definition --> area definition
+We can define the amount of components that editors can add in an area.
+
+We use the property "areas" in the pages .yaml file and we provide a name with it.
+We also can specify the components with tags like "availableComponents".
+All the configuration must be correctly indented or it will all explode.

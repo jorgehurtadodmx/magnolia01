@@ -1,0 +1,43 @@
+[16]FreeMarker directives - area
+
+CMS area directive
+Used to render an area
+On author instance, the result is an area bar and end marker
+
+To render an area we must work in the page template script (.ftl)
+Something like:
+[@cms.area name="main" /]
+in the content we want to render. Then green stuff will appear in the website to allow the authors to modify it.
+
+[17]Exercise: Create an area
+We add 
+    [@cms.area name="main" /]
+
+to the script (.ftl) file in my-training-module/templates/pages
+which now contains 
+
+<!doctype html>
+<html lang="${cmsfn.language()}">
+  <head>
+    [@cms.page /]
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    [@cms.area name="main" /]
+  </body>
+</html>
+
+And then, we add the area in the .yaml (the page maker)
+(last 3 lines)
+title: my-homepage
+templateScript: /my-training-module/templates/pages/my-homepage.ftl
+renderType: freemarker
+visible: true
+areas:
+  main:
+    type: noComponent
+
+Then we go to JCR --> home --> main
+There we have the full structure of what we made in the files as content pages.
