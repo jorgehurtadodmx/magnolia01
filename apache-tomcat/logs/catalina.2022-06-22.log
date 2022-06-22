@@ -944,3 +944,803 @@
  java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
 22-Jun-2022 11:03:11.124 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 22-Jun-2022 11:03:11.140 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:04:05.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+8-LTS-149
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:04:05.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\conf\logging.properties
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2022 11:04:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\temp
+22-Jun-2022 11:04:05.563 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Java\jdk-11.0.15;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.15;C:\Users\j.hurtado.de.moxo\AppData\Local\Microsoft\WindowsApps;C:\Users\j.hurtado.de.moxo\AppData\Roaming\npm;C:\Users\j.hurtado.de.moxo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\j.hurtado.de.moxo\AppData\Local\Programs\Git\cmd;.]
+22-Jun-2022 11:04:05.940 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:04:05.971 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [653] milliseconds
+22-Jun-2022 11:04:06.034 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Jun-2022 11:04:06.034 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+22-Jun-2022 11:04:06.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaAuthor]
+22-Jun-2022 11:05:05.082 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [251] milliseconds.
+22-Jun-2022 11:05:06.638 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:05:06.638 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:05:06.747 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:05:06.779 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:05:06.794 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:05:06.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:05:06.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:05:06.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:05:06.842 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:05:06.857 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:05:06.873 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:05:06.873 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:05:06.873 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:05:06.873 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:05:06.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:05:06.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:05:06.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:05:06.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:05:06.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:05:06.904 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:05:07.784 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:05:07.784 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:05:07.816 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:05:07.816 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:05:07.831 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.862 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:05:07.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:05:07.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:05:07.909 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:05:07.909 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:05:07.916 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:05:07.925 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:05:07.925 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:05:07.941 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:05:07.941 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:05:07.941 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.957 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:05:07.972 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:05:07.988 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:05:07.988 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:05:07.988 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:05:07.988 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:05:08.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaAuthor] has finished in [61,985] ms
+22-Jun-2022 11:05:08.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaPublic]
+22-Jun-2022 11:06:09.707 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:06:09.707 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:06:09.801 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:06:09.817 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:06:09.832 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:06:09.864 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:06:09.864 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:06:09.864 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:06:09.864 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:06:09.864 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:06:09.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:06:09.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:06:09.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:06:09.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:06:09.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:06:09.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:06:09.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.759 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:06:10.759 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:06:10.774 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:06:10.790 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:06:10.790 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:06:10.821 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:06:10.821 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:06:10.821 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:06:10.821 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:06:10.837 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:06:10.852 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:06:10.868 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:06:10.868 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:06:10.868 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:06:10.883 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:06:10.883 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:06:10.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:06:10.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:06:10.930 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:06:10.930 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:06:10.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaPublic] has finished in [62,901] ms
+22-Jun-2022 11:06:10.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\ROOT]
+22-Jun-2022 11:06:10.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\ROOT] has finished in [26] ms
+22-Jun-2022 11:06:10.993 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:06:11.024 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [125050] milliseconds
+22-Jun-2022 11:17:31.380 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Jun-2022 11:17:31.381 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:17:31.573 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Jun-2022 11:17:33.620 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:17:33.622 WARNING [main] org.atmosphere.cpr.DefaultBroadcaster.addAtmosphereResource AtmosphereResource 1cfd0a96-7fbe-4022-bb99-274419d1c1eb is not suspended. If cached messages exists, this may cause unexpected situation. Suspend first
+22-Jun-2022 11:17:35.126 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2022 11:17:35.127 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1036)
+ java.base@11.0.15/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:17:35.128 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-11-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:17:35.128 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-14-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:17:35.129 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:17:35.130 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+ java.base@11.0.15/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+22-Jun-2022 11:17:35.131 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:17:35.132 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@33834565]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+22-Jun-2022 11:17:36.798 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2022 11:17:36.799 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1036)
+ java.base@11.0.15/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:17:36.805 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:17:36.817 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:17:44.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+22-Jun-2022 11:17:44.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+22-Jun-2022 11:17:44.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+22-Jun-2022 11:17:44.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Jun-2022 11:17:44.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Jun-2022 11:17:44.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Jun-2022 11:17:44.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15
+22-Jun-2022 11:17:44.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+8-LTS-149
+22-Jun-2022 11:17:44.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Jun-2022 11:17:44.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:17:44.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:17:44.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2022 11:17:44.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2022 11:17:44.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2022 11:17:44.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2022 11:17:44.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2022 11:17:44.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\conf\logging.properties
+22-Jun-2022 11:17:44.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2022 11:17:44.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2022 11:17:44.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2022 11:17:44.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+22-Jun-2022 11:17:44.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+22-Jun-2022 11:17:44.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+22-Jun-2022 11:17:44.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Jun-2022 11:17:44.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:17:44.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat
+22-Jun-2022 11:17:44.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\temp
+22-Jun-2022 11:17:44.904 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Java\jdk-11.0.15;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.15;C:\Users\j.hurtado.de.moxo\AppData\Local\Microsoft\WindowsApps;C:\Users\j.hurtado.de.moxo\AppData\Roaming\npm;C:\Users\j.hurtado.de.moxo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\j.hurtado.de.moxo\AppData\Local\Programs\Git\cmd;.]
+22-Jun-2022 11:17:45.276 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:17:45.307 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [666] milliseconds
+22-Jun-2022 11:17:45.371 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Jun-2022 11:17:45.372 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+22-Jun-2022 11:17:45.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaAuthor]
+22-Jun-2022 11:18:44.245 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [235] milliseconds.
+22-Jun-2022 11:18:45.707 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:18:45.707 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:18:45.817 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:18:45.843 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:18:45.864 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:18:45.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:18:45.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:18:45.943 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:18:45.958 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:18:45.958 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:18:45.958 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:18:45.958 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:18:45.958 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:18:45.974 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:18:46.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:18:46.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:18:46.962 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:18:46.977 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:18:46.977 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:18:47.009 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:18:47.009 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:18:47.009 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:18:47.024 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:18:47.040 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:18:47.045 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:18:47.056 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:18:47.056 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:18:47.072 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:18:47.072 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:18:47.072 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:18:47.103 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:18:47.103 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:18:47.103 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:18:47.103 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:18:47.103 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:18:47.119 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:18:47.134 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:18:47.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaAuthor] has finished in [61,798] ms
+22-Jun-2022 11:18:47.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaPublic]
+22-Jun-2022 11:19:43.544 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:19:43.545 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:19:43.652 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:19:43.675 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:19:43.692 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:19:43.733 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:19:43.735 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:19:43.735 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:19:43.738 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:19:43.739 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:19:43.742 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:19:43.743 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:19:43.743 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:19:43.748 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:19:43.748 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:19:43.749 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:19:43.751 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:19:43.752 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:19:43.752 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:19:43.754 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.756 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.756 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.757 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:19:43.759 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.759 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.759 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.760 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.760 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.761 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:43.765 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:19:43.766 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:19:43.767 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:19:43.768 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:19:43.769 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:19:43.769 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:19:43.769 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:19:43.770 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:19:43.770 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:19:43.771 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:19:43.772 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:19:43.772 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:19:43.780 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:19:43.780 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:19:43.781 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:19:43.782 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:19:43.783 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:19:43.792 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.717 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:19:44.718 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:19:44.750 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:19:44.760 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:19:44.762 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:19:44.794 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:19:44.795 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:19:44.796 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:19:44.799 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:19:44.799 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:19:44.800 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:19:44.800 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:19:44.801 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:19:44.801 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:19:44.803 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:19:44.803 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:19:44.804 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:19:44.804 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:19:44.805 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.809 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.810 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.810 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:19:44.812 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.812 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.813 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.813 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.814 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.814 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.815 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.815 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:19:44.816 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:19:44.816 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:19:44.817 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:19:44.817 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:19:44.818 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:19:44.818 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:19:44.818 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:19:44.819 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:19:44.819 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:19:44.820 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:19:44.825 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:19:44.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:19:44.826 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:19:44.828 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:19:44.828 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:19:44.829 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.832 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+22-Jun-2022 11:19:44.832 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+22-Jun-2022 11:19:44.843 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+22-Jun-2022 11:19:44.849 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:19:44.850 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+22-Jun-2022 11:19:44.867 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+22-Jun-2022 11:19:44.867 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+22-Jun-2022 11:19:44.868 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+22-Jun-2022 11:19:44.871 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+22-Jun-2022 11:19:44.872 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+22-Jun-2022 11:19:44.875 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+22-Jun-2022 11:19:44.875 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+22-Jun-2022 11:19:44.876 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+22-Jun-2022 11:19:44.876 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+22-Jun-2022 11:19:44.877 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+22-Jun-2022 11:19:44.877 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+22-Jun-2022 11:19:44.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+22-Jun-2022 11:19:44.878 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+22-Jun-2022 11:19:44.879 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.879 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.879 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.880 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+22-Jun-2022 11:19:44.881 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.881 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.882 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.882 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.883 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+22-Jun-2022 11:19:44.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+22-Jun-2022 11:19:44.892 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+22-Jun-2022 11:19:44.892 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+22-Jun-2022 11:19:44.893 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+22-Jun-2022 11:19:44.893 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+22-Jun-2022 11:19:44.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+22-Jun-2022 11:19:44.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+22-Jun-2022 11:19:44.896 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+22-Jun-2022 11:19:44.896 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+22-Jun-2022 11:19:44.897 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+22-Jun-2022 11:19:44.897 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+22-Jun-2022 11:19:44.897 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+22-Jun-2022 11:19:44.898 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+22-Jun-2022 11:19:44.899 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+22-Jun-2022 11:19:44.903 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.64 using javax.servlet/3.0
+22-Jun-2022 11:19:44.904 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+22-Jun-2022 11:19:44.905 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+22-Jun-2022 11:19:44.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\magnoliaPublic] has finished in [57,754] ms
+22-Jun-2022 11:19:44.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\ROOT]
+22-Jun-2022 11:19:44.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\j.hurtado.de.moxo\magnolia01\apache-tomcat\webapps\ROOT] has finished in [35] ms
+22-Jun-2022 11:19:44.980 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:19:45.004 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [119695] milliseconds
+22-Jun-2022 11:25:29.418 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Jun-2022 11:25:29.419 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:25:29.625 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Jun-2022 11:25:31.554 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+22-Jun-2022 11:25:31.659 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+22-Jun-2022 11:25:31.662 WARNING [main] org.atmosphere.cpr.DefaultBroadcaster.addAtmosphereResource AtmosphereResource ed1aaa35-8ab9-4a43-91bd-05acfc4d2787 is not suspended. If cached messages exists, this may cause unexpected situation. Suspend first
+22-Jun-2022 11:25:33.495 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2022 11:25:33.497 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1036)
+ java.base@11.0.15/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.497 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-11-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.500 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-15-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.502 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.502 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.505 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Object.wait(Native Method)
+ java.base@11.0.15/java.lang.Object.wait(Object.java:328)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.505 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-16-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.505 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.507 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.15/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+ java.base@11.0.15/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+22-Jun-2022 11:25:33.510 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base@11.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:33.512 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7c2be834]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+22-Jun-2022 11:25:35.298 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2022 11:25:35.298 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@11.0.15/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1036)
+ java.base@11.0.15/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+22-Jun-2022 11:25:35.298 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Jun-2022 11:25:35.314 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

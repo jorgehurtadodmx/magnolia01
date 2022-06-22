@@ -1,0 +1,46 @@
+[24]Templating functions perform tasks like creating links and navigating content where
+arguments are passed to functions and get an object in return.
+
+There are two main templating functiosn:
+cmsfn: Navigates content and creates links
+
+damfn: Provides assets like images
+
+
+[25]Exercise: Make use of cmsfn to decode a property
+
+1. Modify a simple text field to a rich text field.
+For that we edit the banner dialog definition in:
+/light-modules/my-training-module/dialogs/components
+
+The title field is currently a simple text field.
+so we replace it with:
+$type: richTextField
+
+With the result as:
+label: Banner properties
+form:
+  properties:
+    title:
+      $type: richTextField
+      label: Title
+    image:
+      label: Select image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+
+TO MAKE IT WORK, it's important to make some changes in the description or title of the page. Otherwise we won't see changes.
+
+Now, let's fix those <p></p> and take them out with:
+3. Use cmsfn to decode title property.
+
+Edit the banner template script found under:
+
+/light-modules/my-workshop-module/templates/components
+using the pattern:
+${cmsfn.decode(content).propertyName}
+Using
+   <h2>${cmsfn.decode(content).title}</h2>
+instead whatever was before, to convert the title into html. Now, all looks good.

@@ -21,7 +21,8 @@
       <div class="column">
         <div>
           [#if content.title?has_content]         
-            <h2>${content.title!}</h2>
+    
+            <h2>${cmsfn.decode(content).title}</h2>
           [/#if]
         </div>
       </div>
