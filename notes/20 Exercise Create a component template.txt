@@ -1,0 +1,38 @@
+[20]Create a banner component template (component template)
+Create a banner component definition (YAML) and a banner component script (FTL) in the correct places inside my-training-module.
+
+Make it available to my-homepage.
+
+We create a banner template and defitinion in
+templates/components
+
+As well as the page definition, that will include the path to the banner.
+This page definition will have the following:
+areas:
+  main:
+    availableComponents:
+      banner:
+        id: my-training-module:components/banner
+
+which results in:
+title: my-homepage
+templateScript: /my-training-module/templates/pages/my-homepage.ftl
+renderType: freemarker
+visible: true
+areas:
+  main:
+
+    availableComponents:
+      banner:
+        id: my-training-module:components/banner
+
+
+En cuanto a la definición de banner:
+title: banner
+templateScript: /my-training-module/templates/components/banner.ftl
+renderType: freemarker
+
+que le da un nombre y una ruta, así como tipo de fichero de renderizado al script.
+
+El script:
+Banner

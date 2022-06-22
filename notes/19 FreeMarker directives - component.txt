@@ -1,0 +1,4 @@
+[19] FreeMarker directives - component
+
+CMS component directive is used to render a component.
+Visually, for the author instance, the directive renders  component toolbar

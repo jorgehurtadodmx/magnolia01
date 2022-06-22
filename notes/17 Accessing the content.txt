@@ -1,0 +1,22 @@
+[17]Accessing the content
+To render content we use the script ${content}
+And we can access any property of it with {content.propertyName}
+
+For example: a property title would be:
+${content.title}
+
+
+[18] Component template
+
+Most atomic element to be rendered in a page and it's an editable sub element of an area.
+
+To create a component template we need:
+
+
+templates/components
+
+A component template definition (YAML fine that defines script to use to render a page)
+A component template script (FTL that defines HTML to be rendered
+
+dialogs/components
+A component dialog definition
