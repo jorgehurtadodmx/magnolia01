@@ -1,0 +1,41 @@
+[30]Definitions app
+https://docs.magnolia-cms.com/product-docs/6.2/Apps/List-of-apps/Definitions-app.html
+Place to find all definitions loaded by magnolia
+Provides an overview of both JCR and YAML definitions.
+
+
+You can open the files of definitions in read only mode there. 
+
+[31] Site definition
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Site-definition.html
+Single configuration of all websites for multisite websites
+Found in Web Dev group in admincentral or find bar
+
+Has some limitations and is not a mandatory feature, however, it adds the following:
+
+Content i18n
+Image resizing on request o render
+Page template availability controlling
+Redundant configuration elimination
+Sharing of resources with caching features
+
+
+Elements to configure in a site definition:
+Templates
+Templates availability: Defines all template definitions that can be used
+Templates prototype: Global configuration of all pages
+Theme: Defines theme of use
+i18n: Defines served languages.
+
+
+[32] Exercise: Add third content language
+
+1. Add a third locale into the i18n configuration.
+
+We go to Site or site definitions and navigate to
+/i18n/locales
+We duplicate the "de" node
+
+We rename the duplicate to "fr" and save changes (set language value to fr of course)
+
+We go to ur Home page and we can find at the bottom the language, we can find the new one.
