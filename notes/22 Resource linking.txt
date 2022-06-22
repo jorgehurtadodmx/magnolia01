@@ -1,0 +1,60 @@
+[22]Resource linking
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Template-scripts/Templating-functions/resfn.html
+Two ways of referencing resources in magnolia
+1. Static referencing
+For example we have css to refer with href using:
+href=${ctx.contextPath}/.resources/localroute
+
+2. (Recommended) Dynamic referencing
+${resfn.css([route])}
+${resfn.js([route])}
+See docs for more info about referencing
+
+[23] Exercise: Reference web and image resources
+Download the bootstrap and landing-page CSS files from here.
+
+https://wiki.magnolia-cms.com/display/SERVICES/Training+material+access
+
+In the route
+/light-modules/my-training-module/webresources/css
+we add both css
+
+we add the dynamic link of css into the page script (like if it were a normal css) with
+${resfn.css(["/my-training-module/.*css"])!}
+
+
+3. Modify banner template script to style text and image.
+If there is no background, we force one with:
+[#assign styleAttribute = "style='background-color: #666666;'"] 
+at the beginning of the script.
+
+
+We add:
+[#if content.image?has_content]
+  [#assign image = damfn.getAsset(content.image)!]
+
+  [#if image?has_content]
+    [#assign imageLink = image.link!]
+      [#if imageLink?has_content]
+        [#assign styleAttribute = "style='background-image: url(${imageLink});'"]
+      [/#if]
+  [/#if]
+
+[/#if]
+
+to support the use of styleAttribute and null proof it. We also null-proof the title with:
+<div class="banner" ${styleAttribute}>
+    <div class="container bg-gradient-opacity-lefted">
+      <div class="column">
+        <div>
+          [#if content.title?has_content]         
+            <h2>${content.title!}</h2>
+          [/#if]
+        </div>
+      </div>
+    </div>
+</div>
+
+Save all and check in home page in magnolia. The image should be now a background image
+And if there is no image, there should be a color as an image.
+If any of those two things happen, means we did it well.

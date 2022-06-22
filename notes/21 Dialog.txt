@@ -1,0 +1,60 @@
+A dialog is the author interface to add and edit content.
+Dialogs are optional and cabe defined for page, area and components
+
+
+Dialogs are .yaml files
+
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Dialog-definition.html
+
+[21]Exercise: Add dialog definition and content
+Create a component dialog definition
+
+We want the banner to accept text (title) and image content.
+Create a banner dialog definition (YAML) under:
+/light-modules/my-training-module/dialogs/components
+ and create a definition and script under
+/light-modules/my-training-module/templates/components
+
+
+The dialog definition will have the following:
+label: Banner properties
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+    image:
+      label: Select image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+
+
+
+The banner script(HTML rendered) will have following:
+[#if content.title?has_content]
+  ${content.title}
+[/#if]
+ 
+[#if content.image?has_content]
+  [#assign image = damfn.getAsset(content.image)!]
+   
+  [#if image?has_content]
+    [#assign imageLink = image.link!]
+ 
+      [#if imageLink?has_content]
+        <img src="${imageLink}">
+      [/#if]
+  [/#if]
+[/#if]
+
+The banner template will have the following
+title: banner
+templateScript: /my-training-module/templates/components/banner.ftl
+dialog: my-training-module:components/banner
+renderType: freemarker
+
+(We added dialog k/v)
+
+The end.
