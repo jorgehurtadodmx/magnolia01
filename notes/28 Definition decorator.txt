@@ -1,0 +1,20 @@
+[28] Definition decorator
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Definition-decoration.html
+Magnolia mechanism taht allwos altering of existing configured items like app descriptors, dialogs, fields and templates coming
+from either JCR or YAML from local system.
+Decorations can only be defined in a YAML atm.
+
+The route of decorators must be somethhing like
+/decorations/dialogs/pages/home.yaml (basically, a yaml inside a decorations folder inside a module.
+
+magnolia01\light-modules\my-training-module\decorations\pages-app\apps (final path + .yaml)
+In my case, inside decorations folder I create folders page-app and apps inside this one.
+Inside the last one, pages-app.yaml
+we add this inside:
+label: Home
+
+We log out, log in and check that pages label is now called "Home"
+
+[29]Exercise: Decorate an app label
+Just do the same at [28] and we will manage to change the label of an app. Important to make the folders with the same names
+and follow the instructions or it won't work
