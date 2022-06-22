@@ -1,7 +1,7 @@
 [#assign styleAttribute = "style='background-color: #666666;'"]
 
 [#if content.title?has_content]
-    <!-- <h2>${cmsfn.decode(content).title}</h2>-->
+    <h2>${cmsfn.decode(content).title}</h2>
 [/#if]
  
 [#if content.image?has_content]

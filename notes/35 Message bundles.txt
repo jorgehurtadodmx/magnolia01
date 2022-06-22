@@ -1,0 +1,44 @@
+[35]Message bundles
+https://docs.magnolia-cms.com/product-docs/6.2/Administration/Language/Internationalization.html
+Those are colelctions of .properties files
+
+Each file contains key/value pairs of translated user interface texts like labels and messages.
+
+
+[36] Exercise: Render different copyright footer for different languages
+
+1. Render different copyright footer in your page with help of message bundle.
+
+In the i18n folder, we create files like
+messages_en.properties
+
+messages_de.properties
+
+adding:
+my.footer = My English Footer
+and
+
+my.footer = My German Footer
+Now, we put in the page template script the rendering areas of what we want translated.
+
+[37] System i18n
+https://docs.magnolia-cms.com/product-docs/6.2/Administration/Language/Language-configuration.html
+
+System i18n enables users to use the system in his preferred language
+One of the languages is always a fallback languge
+
+This allows the current logged user to select a language he wants in his profile (edit profile --> preferences --> language)
+
+
+[38] Exercise: Change label to be set inside message bundle not in dialog definition
+
+1. Change title to be set inside message bundle not in dialog definition.
+
+Remove the label property from the banner dialog definition and save.
+
+Quickly switch to your author instance and in the Pages app.
+
+Open and edit the banner component that you have in the page.
+This way you will see what the key is for the label you need to use in the messaging bundle.
+
+This way we change labels information while using i18n (see git for more)

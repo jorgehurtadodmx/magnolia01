@@ -9,5 +9,7 @@
   <body>
     <h1>${content.title!content.@name}</h1>
     [@cms.area name="main" /]
+    <footer>${i18n['my.footer']}</footer>
+
   </body>
 </html>

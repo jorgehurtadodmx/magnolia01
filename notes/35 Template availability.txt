@@ -1,0 +1,47 @@
+[35]Template availability
+
+docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Template-availability.html
+
+visible property in pages to true
+Also set in site definitions --> templates -->availability
+
+in components  (yaml) --> availableComponets
+
+[36]YAML and FTL includes
+
+This one is a littel bit more confusing, see more in 
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Reusing-configuration/YAML-inherit-and-include.html
+
+
+[37]Exercise: Make use of includes
+1. Use YAML include to reuse field for the dialogs.
+We create a imageLinkField.yaml in
+
+includes/dialogs/.yaml
+
+that has:
+label: Select image
+$type: linkField
+chooser:
+  workbenchChooser:
+    appName: dam-chooser
+
+
+and we use the yaml on dialogs/components  with the following:
+
+label: Banner properties
+form:
+  properties:
+    title:
+      $type: richTextField
+      i18n: true
+   # image:
+    #  label: Select image
+    #  $type: linkField
+    #  chooser:
+    #    workbenchChooser:
+    #      appName: dam-chooser
+
+     image: !include:/my-training-module/includes/dialogs/imageLinkField.yaml 
+
+
