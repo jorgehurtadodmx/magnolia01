@@ -4,6 +4,7 @@ form:
     title:
       $type: richTextField
       label: Title
+      i18n: true
     image:
       label: Select image
       $type: linkField

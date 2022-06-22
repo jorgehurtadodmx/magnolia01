@@ -1,0 +1,39 @@
+[33] 2 types of i18n
+System and Content:
+https://docs.magnolia-cms.com/product-docs/6.2/Administration/Language/Language-configuration.html
+Content: Enables authors to enter content in different languages that are configured (language in which content is served)
+
+I order to enable multi-language content:
+We have to enable multi-language authoring
+Set i18n property to true in field definition
+Define locales in site --> site definitions --> i18 --> locales
+
+
+
+This can be done in the configuration app under server  --> i18n --> authoring (set to true)
+we add
+      i18n: true
+in the dialogs component definition as a property of key/value
+
+
+We go to a page properties of a page that we have and we can find that we can switch between languges and see that 
+some parts of the properties may switch to that language to fill
+
+[34]Exercise: Content i18n and Internationalize banner content
+
+Modify the banner definition adding the i18n to true, ending it like this:
+label: Banner properties
+form:
+  properties:
+    title:
+      $type: richTextField
+      label: Title
+      i18n: true
+    image:
+      label: Select image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
+
+Then we edit the specific parts on the home page changing the languages.
