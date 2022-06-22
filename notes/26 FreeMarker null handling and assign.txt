@@ -1,0 +1,80 @@
+FreeMarker null handling and assign
+https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Template-scripts/Directives.html
+https://freemarker.apache.org/docs/ref_builtins_expert.html#ref_builtin_has_content
+Performing null checks lead to stable templates
+If we don't perform null checks, we will end with big errors.
+
+First null checking possibility is "!"
+If the value of a property is null, it can fall back to a specified value (default)
+For example:
+<h1>${content.title!"home page"}</h1>
+We try to render a title value and if it doesn't exist(null), we return a value "home page"
+
+In this following example, we check for a null value and render the page node instead of the fallback value
+<h1>${content.title!content.@name}</h1>
+
+Other null check possibility is the use of "?has_content"
+If content value exists, it is rendered, otherwise, it skips the rendering
+In Java JSP it works exactly the same, if it exists, it shows and if it doesn't exist, it doesn't show.
+
+
+There is another NOT null handler called assign that allows to pass values, except null.
+The freemarker assign allows the definition of variables
+
+
+[27] Exercise: Null proof navigation title
+
+1. Render page title and use the node name as fallback.
+
+In the dialog definition, we add: (dialogs/page/.yaml)
+label: Page properties
+form:
+  properties:
+    title:
+     $type: textField
+     label: Title
+
+
+
+Now, we update script and definition from tempaltes/pages
+with     <h1>${content.title!content.@name}</h1>
+instead of 
+    <h1>Hello, world!</h1> 
+
+
+having a result of 
+
+<!doctype html>
+<html lang="${cmsfn.language()}">
+  <head>
+    [@cms.page /]
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    ${resfn.css(["/my-training-module/.*css"])!}
+  </head>
+  <body>
+    <h1>${content.title!content.@name}</h1>
+    [@cms.area name="main" /]
+  </body>
+</html>
+
+This adds the title "home", that has been renderized
+
+
+In the definition, we add
+dialog: my-training-module:pages/my-homepage
+
+having a result
+
+title: my-homepage
+templateScript: /my-training-module/templates/pages/my-homepage.ftl
+dialog: my-training-module:pages/my-homepage
+renderType: freemarker
+visible: true
+areas:
+  main:
+    availableComponents:
+      banner:
+        id: my-training-module:components/banner
+
+If it fails to find any of these, it won't show it instead of giving errors.
