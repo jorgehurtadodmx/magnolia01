@@ -25,6 +25,15 @@ A page template script is a FTL file that defines HTML to be rendered. (like a J
 In the page dialog definition we define authors interface to enter title for a page (as authors).
 
 
+Basicamente, una pagina debe tener al menos tres archivos
+templates
+	pages
+		page.ftl
+		page.yaml
+dialogs
+	pages
+		page.yaml
+
 
 
 
