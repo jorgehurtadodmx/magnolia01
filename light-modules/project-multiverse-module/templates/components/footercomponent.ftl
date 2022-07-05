@@ -3,11 +3,13 @@
 	<div class="inner split">
 		<div>
 			<section>
-					<h2>Magna feugiat sed adipiscing</h2>
-					<p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
+
+					<h2>${content.firstsectiontitle}</h2>
+					<p>${content.firstdescription}</p>
 			</section>
 			<section>
-					<h2>Follow me on ...</h2>
+					<h2>${content.firstSocial}</h2>
+					<!-- PERMITIR AÑADIR ENLACES CON FAVICONS, AÑADIR UNO, QUITAR UNO -->
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -23,22 +25,22 @@
 							</div>
 							<div>
 								<section>
-									<h2>Get in touch</h2>
+									<h2>${content.firstContactForm}</h2>
 									<form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
-												<input type="text" name="name" id="name" placeholder="Name" />
+												<input type="text" name="name" id="name" placeholder="${content.formName}" />
 											</div>
 											<div class="field half">
-												<input type="text" name="email" id="email" placeholder="Email" />
+												<input type="text" name="email" id="email" placeholder="${content.formEmail}" />
 											</div>
 											<div class="field">
-												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+												<textarea name="message" id="message" rows="4" placeholder="${content.formMessage}"></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><input type="submit" value="Send" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
+											<li><input type="submit" value="${content.sendButton}" class="primary" /></li>
+											<li><input type="reset" value="${content.resetForm}" /></li>
 										</ul>
 									</form>
 								</section>

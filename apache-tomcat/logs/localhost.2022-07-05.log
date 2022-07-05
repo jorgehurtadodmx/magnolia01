@@ -117,3 +117,5 @@
 		at info.magnolia.resourceloader.jcr.JcrResourceOrigin.lambda$getJcrSession$14(JcrResourceOrigin.java:246)
 		at com.machinezoo.noexception.CheckedExceptionHandler.get(CheckedExceptionHandler.java:1737)
 		... 99 more
+05-Jul-2022 13:32:05.455 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+05-Jul-2022 13:36:25.554 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework

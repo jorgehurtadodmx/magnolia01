@@ -1,32 +1,74 @@
 form:
-  properties:
-    title:
-      $type: textField
-      label: Title
-    description:
-      $type: textField
-      label: Description
-  layout:
-    $type: tabbedLayout
-    tabs:
-      firstSection:
-        label: first part of footer
-        fields:
-          - name: section 1.1
-          - name: section 1.2
-      secondSection:
-        label: second part of footer
-        fields:
-          - name: description
-      thirdSection:
-        label: second part of footer
-        fields:
-          - name: description
-          
+  $type: tabbedForm
+  tabs:
+    firstTab:
+      label: firstTab
+      fields:
+        firstsectiontitle:
+          label: firstsectiontitle
+          $type: textField
+          required: true
+        code:
+          label: Code editor
+          $type: codeField
+          height: 50
+          language: freemarker
+          readOnly: True
+        firstdescription:
+          label: firstdescription
+          $type: textField
+          required: true
+    secondTab:
+      label: socialTab
+      fields:
+        firstSocial:
+          label: firstSocial
+          $type: textField
+          required: true
+        secondSocial:
+          label: secondSocial
+          $type: textField
+          required: true
+    contactTab:
+      label: contactTab
+      fields:
+        firstContactForm:
+          label: firstContactForm
+          $type: textField
+          required: true
+        formName:
+          label: formName
+          $type: textField
+          required: true
+        formEmail:
+          label: formEmail
+          $type: textField
+          required: true
+
+
+        formMessage:
+          label: formMessage
+          $type: textField
+          required: true
+        sendButton:
+          label: sendButton
+          $type: textField
+          required: true
+        resetForm:
+          label: resetForm
+          $type: textField
+          required: true
+
+
+
+
+
+
 footerLayout:
   $type: defaultEditorActionLayout
   primaryActions:
     commit: commit
+    cancel: cancel
 #https://docs.magnolia-cms.com/product-docs/6.2/Support/Magnolia-5-UI-documentation/Dialog-definition-5-UI.html
 #https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Dialog-definition.html
 
@@ -37,4 +79,4 @@ footerLayout:
 #SECTION 1.2    SECTION 3.2   SECTION 3.3
 
 #SECTION 2.1    SECTION 3.4
-#SECTION 2.1    SECTION 3.5   SECTION 3.6
+#SECTION 2.2    SECTION 3.5   SECTION 3.6

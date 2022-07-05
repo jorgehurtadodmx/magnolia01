@@ -1,12 +1,17 @@
-<div id="main">  <!-- PENDIENTE : 1. LINKS IMAGENES local -->
+<div id="main">
+  <!-- PENDIENTE : 1. LINKS IMAGENES local -->
 <!-- 2. IMAGENES DINAMICAS -->
+<!-- ESTA VERSION SERÁ LA VERSIÓN ESTATICA  PARA PRUEBAS-->
+
 						<article class="thumb">
-							<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
+							<a href="${ctx.contextPath}/.resources/project-multiverse-module/webresources/images/fulls/01.jpg" 
+							class="image"><img src="${ctx.contextPath}/.resources/project-multiverse-module/webresources/images/thumbs/01.jpg" alt="" /></a>
 							<h2>Magna feugiat lorem</h2>
 							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
 						</article>
 						<article class="thumb">
-							<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" /></a>
+							<a href="${ctx.contextPath}/.resources/project-multiverse-module/webresources/images/fulls/02.jpg" 
+							class="image"><img src="${ctx.contextPath}/.resources/project-multiverse-module/webresources/images/thumbs/02.jpg" alt="" /></a>
 							<h2>Nisl adipiscing</h2>
 							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
 						</article>
