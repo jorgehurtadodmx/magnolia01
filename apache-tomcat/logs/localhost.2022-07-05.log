@@ -119,3 +119,5 @@
 		... 99 more
 05-Jul-2022 13:32:05.455 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
 05-Jul-2022 13:36:25.554 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+05-Jul-2022 17:03:33.147 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+05-Jul-2022 17:08:04.675 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework

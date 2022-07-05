@@ -1,3 +1,5 @@
 22.06.2022 12:07:23, security, anonymous, 0:0:0:0:0:0:0:1, Possible CSRF Attack, CSRF token not set while user 'anonymous' attempted to access url '/.magnolia/admincentral'.
 22.06.2022 12:07:27, security, anonymous, 0:0:0:0:0:0:0:1, Possible CSRF Attack, CSRF token not set while user 'anonymous' attempted to access url '/.magnolia/admincentral'.
 03.07.2022 16:31:49, security, anonymous, 0:0:0:0:0:0:0:1, Possible CSRF Attack, CSRF token mismatched while user 'anonymous' attempted to access url '/.magnolia/admincentral'.
+05.07.2022 18:10:14, security, anonymous, 0:0:0:0:0:0:0:1, Possible CSRF Attack, CSRF token not set while user 'anonymous' attempted to access url '/.magnolia/admincentral'.
+05.07.2022 18:10:17, security, anonymous, 0:0:0:0:0:0:0:1, Possible CSRF Attack, CSRF token not set while user 'anonymous' attempted to access url '/.magnolia/admincentral'.
