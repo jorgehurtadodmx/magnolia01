@@ -6,11 +6,12 @@ dialog: project-multiverse-module:pages/mainmultiverse
 renderType: freemarker
 visible: true
 areas: #areas enlazadas con la vista html (ftl)
-  header: #NOMBRE DE AREA
-    availableComponents: #ENLACE A DIALOGS/COMPONENTS/
-      headercomponent:
-        id: project-multiverse-module:components/headercomponent
   footer:
     availableComponents:
       footercomponent:
         id: project-multiverse-module:components/footercomponent
+  header: #NOMBRE DE AREA
+    availableComponents: #ENLACE A DIALOGS/COMPONENTS/
+      headercomponent:
+        id: project-multiverse-module:components/headercomponent
+  
