@@ -1,0 +1,40 @@
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+    description:
+      $type: textField
+      label: Description
+  layout:
+    $type: tabbedLayout
+    tabs:
+      firstSection:
+        label: first part of footer
+        fields:
+          - name: section 1.1
+          - name: section 1.2
+      secondSection:
+        label: second part of footer
+        fields:
+          - name: description
+      thirdSection:
+        label: second part of footer
+        fields:
+          - name: description
+          
+footerLayout:
+  $type: defaultEditorActionLayout
+  primaryActions:
+    commit: commit
+#https://docs.magnolia-cms.com/product-docs/6.2/Support/Magnolia-5-UI-documentation/Dialog-definition-5-UI.html
+#https://docs.magnolia-cms.com/product-docs/6.2/Developing/Templating/Dialog-definition.html
+
+#ESTE DIALOG PERMITE OBTENER PROPIEDADES DE EDICIÓN PARA EL FOOTER
+# 3 SECTIONS
+
+#SECTION 1.1    SECTION 3.1
+#SECTION 1.2    SECTION 3.2   SECTION 3.3
+
+#SECTION 2.1    SECTION 3.4
+#SECTION 2.1    SECTION 3.5   SECTION 3.6
