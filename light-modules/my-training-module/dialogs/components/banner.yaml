@@ -1,7 +1,13 @@
-#label: Banner properties
+label: Banner properties
 form:
   properties:
     title:
-      $type: richTextField
-      i18n: true
-    image: !include:/my-training-module/includes/dialogs/imageLinkField.yaml
+#      $type: textField
+       $type: richTextField
+      label: Title
+    image:
+      label: Select image
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: dam-chooser
